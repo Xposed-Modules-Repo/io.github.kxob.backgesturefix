@@ -1,0 +1,2 @@
+应用从后台切至前台，过渡动画未结束时，侧滑返回手势会回到桌面。本模块将其修正为回到应用上一页。当前仅支持ColorOS。
+When an app switches from the background to the foreground and the transition animation has not yet finished, the swipe-to-go-back gesture would return the user to the home screen; this module fixes the behavior so that the gesture returns the user to the previous page within the app instead. Currently only support ColorOS.
